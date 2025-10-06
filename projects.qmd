@@ -3,46 +3,42 @@ title: "Projects"
 ---
 
 ::: {.content-section}
-
 ## 📚 Portfolio & Projects
 
 ### GitHub Repositories
 
 ::: {.card-grid}
 ::: {.card}
-**📊 Applied Statistics with R**
 
-Learning materials and practice for statistical analysis with R
+**🔮 Prediction Model**
 
-[View on GitHub →](https://github.com/syedtoushik06)
----
+IMDB Rating & Popularity relation predictive models for data-driven forecasting and analysis.
 
-
-
+[View on GitHub →](https://github.com/syedtoushik06/Prediction_Model)
 :::
 
 ::: {.card}
-**📈 R Graph Gallery**
+**💄 Cosmetic Brand Analysis**
 
-Collection of chart examples and visualization techniques
+Data analysis project exploring cosmetic brand trends, consumer preferences, and market insights using statistical methods.
 
-[View on GitHub →](https://github.com/syedtoushik06)
+[View on GitHub →](https://github.com/syedtoushik06/Cosmetic_Brand_Analysis)
 :::
 
 ::: {.card}
-**📉 R Histogram Practice**
+**🌐 Personal Website**
 
-Practice projects for data visualization
+Source code for this portfolio website built with Quarto, showcasing my academic journey and projects.
 
-[View on GitHub →](https://github.com/syedtoushik06)
+[View on GitHub →](https://github.com/syedtoushik06/Personal-Website)
 :::
 
 ::: {.card}
-**🔄 Git Learning**
+**📊 Deplyr**
 
-Documenting my journey learning version control
+Data manipulation and analysis project using modern data science tools and techniques.
 
-[View on GitHub →](https://github.com/syedtoushik06)
+[View on GitHub →](https://github.com/syedtoushik06/Deplyr)
 :::
 :::
 
