@@ -4,7 +4,6 @@ project:
 
 website:
   title: "Syed Toushik Hossen "
-  favicon: images/favicon.ico
   
   navbar:
     logo: images/favicon.ico
