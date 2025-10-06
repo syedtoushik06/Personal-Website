@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "Syed Toushik Hossen "
+  title: "Syed Toushik Hossen"
+  favicon: images/favicon.ico
   
   navbar:
-    logo: images/favicon.ico
     background: "#1e293b"
     foreground: "#ffffff"
     left:
