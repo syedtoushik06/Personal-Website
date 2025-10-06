@@ -8,15 +8,10 @@ title: "Personal"
 ### 🌟 Achievements So Far
 
 ::: {.checklist}
-- Successfully enrolled in Bachelor's program in Health Economics at University of Dhaka
+- Gained admission to Dhaka University and Notre Dame College.
 - Maintained perfect academic record with GPA 5.00 in SSC, JSC, and HSC
-- Received Government Scholarship for outstanding academic performance
-- Served in leadership roles across multiple student organizations
-- Developed technical skills in R programming and data analysis
+- Developed strong technical skills in data analysis using R and Python.
 - Gained proficiency in graphic design with Adobe Photoshop
-- Won academic competitions including Mind Duel championship
-- Published analytical articles on philosophy and politics
-- Built foundation in statistical analysis and research methods
 - Established strong academic and extracurricular portfolio
 :::
 
@@ -25,16 +20,13 @@ title: "Personal"
 ### 🚀 Future Goals & Aspirations
 
 ::: {.future-goals}
-- Complete Bachelor of Social Science in Health Economics with distinction
-- Master advanced statistical programming in R and Python
-- Develop expertise in health economics research methodologies
-- Contribute to peer-reviewed publications in health economics
-- Build interactive data visualization tools for healthcare analysis
-- Pursue graduate studies in Health Economics or Public Health
-- Conduct research on healthcare policy in Bangladesh context
-- Develop data-driven solutions for health system challenges
-- Establish professional network in global health economics community
-- Create educational resources for data science in health research
+
+- Contribute to academic knowledge by publishing high-impact research papers.
+- Pursue a fully-funded PhD in the USA to advance expertise in your field.
+- Become a university professor at a prestigious university
+- Receive the Nobel Prize in Economic
+- Travel around and explore all the countries in Europe
+
 :::
 
 :::

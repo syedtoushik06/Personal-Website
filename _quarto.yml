@@ -37,12 +37,12 @@ website:
       - href: contact.qmd
         text: Contact
         icon: envelope-fill
-
+        
   page-footer:
     background: "#1e293b"
     foreground: "#ffffff"
     left: "© 2024 Syed Toushik Hossen. All rights reserved."
-    center: "Built with Quarto"
+    center: "Built with R Programming & Quarto"
     right: 
       - icon: github
         href: https://github.com/syedtoushik06
@@ -61,3 +61,6 @@ format:
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
+    include-after-body:
+      - text: |
+          <script src="scripts.js"></script>

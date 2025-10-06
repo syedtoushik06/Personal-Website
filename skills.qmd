@@ -43,13 +43,13 @@ title: "Skills"
 ::: {.card}
 **📊 Advanced R Programming**
 
-Working on Applied Statistics for Data Scientists with R course
+Working on  Package like Shiny, Blogdown, flexdashboard
 :::
 
 ::: {.card}
 **📈 Data Visualization**
 
-Improving skills with ggplot2 and creating professional charts
+Improving skills with tableau and python visualization tools
 :::
 
 ::: {.card}
