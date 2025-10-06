@@ -1,4 +1,4 @@
-// Portfolio Enhancement Script with Sticky Navbar
+// Portfolio Enhancement Script - Fixed Scrolling
 (function() {
   'use strict';
 
@@ -191,19 +191,10 @@
     }
 
     // ============================================
-    // 8. PARALLAX EFFECT FOR HERO SECTION
+    // 8. PARALLAX EFFECT REMOVED - WAS CAUSING GLITCH
     // ============================================
-    function initParallaxEffect() {
-      const hero = document.querySelector('.hero');
-      if (!hero) return;
-      
-      function updateParallax() {
-        const scrolled = window.pageYOffset;
-        hero.style.transform = `translateY(${scrolled * 0.5}px)`;
-      }
-
-      window.addEventListener('scroll', updateParallax, { passive: true });
-    }
+    // The parallax effect has been removed because it caused scrolling glitches
+    // on the index page. The hero section now scrolls normally with the page.
 
     // ============================================
     // 9. LOADING ANIMATIONS FOR IMAGES
@@ -328,7 +319,7 @@
     }
 
     // ============================================
-    // INITIALIZE ALL FEATURES
+    // INITIALIZE ALL FEATURES (PARALLAX REMOVED)
     // ============================================
     try {
       initScrollProgress();
@@ -338,13 +329,13 @@
       initScrollAnimations();
       initSkillBadgeAnimations();
       initCardTiltEffect();
-      initParallaxEffect();
+      // initParallaxEffect(); // REMOVED - This was causing the scroll glitch
       initImageLoadingAnimations();
       initButtonRippleEffect();
       initActiveNavigation();
       initOptimizedScrollHandler();
       
-      console.log('Portfolio enhancements loaded successfully!');
+      console.log('Portfolio enhancements loaded successfully! (Parallax removed for smooth scrolling)');
     } catch (error) {
       console.error('Error initializing portfolio features:', error);
     }

@@ -33,40 +33,40 @@ Recognized for academic excellence and outstanding performance.
 
 ## 📜 More Certificates & Achievements
 
-::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin: 2rem 0;"}
-<div style="text-align: center;">
-<h4 style="color: #2563eb; margin-bottom: 1rem;">🎯 1st TCBD Informative Olympiad</h4>
-<img src="Honors & Awards/1st TCBD Informative Olympiad.jpg" alt="1st TCBD Informative Olympiad" style="width:100%; max-width:300px; height:auto; border-radius:8px;">
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;"}
+<div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.95); border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+<h4 style="color: #2563eb; margin-bottom: 1rem; font-size: clamp(0.9rem, 2vw, 1.1rem);">🎯 1st TCBD Informative Olympiad</h4>
+<img src="Honors & Awards/1st TCBD Informative Olympiad.jpg" alt="1st TCBD Informative Olympiad" style="width:100%; height:auto; aspect-ratio: 4/3; object-fit: contain; border-radius:8px;">
 </div>
 
-<div style="text-align: center;">
-<h4 style="color: #2563eb; margin-bottom: 1rem;">🎪 7th National Adventure Festival</h4>
-<img src="Honors & Awards/7th National Adventure Festival.jpg" alt="7th National Adventure Festival" style="width:100%; max-width:300px; height:auto; border-radius:8px;">
+<div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.95); border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+<h4 style="color: #2563eb; margin-bottom: 1rem; font-size: clamp(0.9rem, 2vw, 1.1rem);">🎪 7th National Adventure Festival</h4>
+<img src="Honors & Awards/7th National Adventure Festival.jpg" alt="7th National Adventure Festival" style="width:100%; height:auto; aspect-ratio: 4/3; object-fit: contain; border-radius:8px;">
 </div>
 
-<div style="text-align: center;">
-<h4 style="color: #2563eb; margin-bottom: 1rem;">🎤 Asian Tv Debate Competition</h4>
-<img src="Honors & Awards/Asian Tv Debate Competition.jpg" alt="Asian Tv Debate Competition" style="width:100%; max-width:300px; height:auto; border-radius:8px;">
+<div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.95); border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+<h4 style="color: #2563eb; margin-bottom: 1rem; font-size: clamp(0.9rem, 2vw, 1.1rem);">🎤 Asian Tv Debate Competition</h4>
+<img src="Honors & Awards/Asian Tv Debate Competition.jpg" alt="Asian Tv Debate Competition" style="width:100%; height:auto; aspect-ratio: 4/3; object-fit: contain; border-radius:8px;">
 </div>
 
-<div style="text-align: center;">
-<h4 style="color: #2563eb; margin-bottom: 1rem;">🏅 GK Olympiad Organized by NDAD</h4>
-<img src="Honors & Awards/GK Olympiad Organized by NDAD.jpg" alt="GK Olympiad Organized by NDAD" style="width:100%; max-width:300px; height:auto; border-radius:8px;">
+<div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.95); border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+<h4 style="color: #2563eb; margin-bottom: 1rem; font-size: clamp(0.9rem, 2vw, 1.1rem);">🏅 GK Olympiad Organized by NDAD</h4>
+<img src="Honors & Awards/GK Olympiad Organized by NDAD.jpg" alt="GK Olympiad Organized by NDAD" style="width:100%; height:auto; aspect-ratio: 4/3; object-fit: contain; border-radius:8px;">
 </div>
 
-<div style="text-align: center;">
-<h4 style="color: #2563eb; margin-bottom: 1rem;">📚 GKC-23 Organized by NDHC</h4>
-<img src="Honors & Awards/GKC-23 Organized by NDHC.jpg" alt="GKC-23 Organized by NDHC" style="width:100%; max-width:300px; height:auto; border-radius:8px;">
+<div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.95); border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+<h4 style="color: #2563eb; margin-bottom: 1rem; font-size: clamp(0.9rem, 2vw, 1.1rem);">📚 GKC-23 Organized by NDHC</h4>
+<img src="Honors & Awards/GKC-23 Organized by NDHC.jpg" alt="GKC-23 Organized by NDHC" style="width:100%; height:auto; aspect-ratio: 4/3; object-fit: contain; border-radius:8px;">
 </div>
 
-<div style="text-align: center;">
-<h4 style="color: #2563eb; margin-bottom: 1rem;">📺 NDMCC Intra Media Xplore 2.0</h4>
-<img src="Honors & Awards/NDMCC Intra Media Xplore 2.0.jpg" alt="NDMCC Intra Media Xplore 2.0" style="width:100%; max-width:300px; height:auto; border-radius:8px;">
+<div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.95); border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+<h4 style="color: #2563eb; margin-bottom: 1rem; font-size: clamp(0.9rem, 2vw, 1.1rem);">📺 NDMCC Intra Media Xplore 2.0</h4>
+<img src="Honors & Awards/NDMCC Intra Media Xplore 2.0.jpg" alt="NDMCC Intra Media Xplore 2.0" style="width:100%; height:auto; aspect-ratio: 4/3; object-fit: contain; border-radius:8px;">
 </div>
 
-<div style="text-align: center;">
-<h4 style="color: #2563eb; margin-bottom: 1rem;">🌍 Oxford International School Model United Nations</h4>
-<img src="Honors & Awards/Oxford International School Model United Nations 2023.jpg" alt="Oxford International School Model United Nations" style="width:100%; max-width:300px; height:auto; border-radius:8px;">
+<div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.95); border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+<h4 style="color: #2563eb; margin-bottom: 1rem; font-size: clamp(0.9rem, 2vw, 1.1rem);">🌍 Oxford International School Model United Nations</h4>
+<img src="Honors & Awards/Oxford International School Model United Nations 2023.jpg" alt="Oxford International School Model United Nations" style="width:100%; height:auto; aspect-ratio: 4/3; object-fit: contain; border-radius:8px;">
 </div>
 :::
 
