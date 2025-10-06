@@ -12,7 +12,6 @@ title: "Personal"
 - Maintained perfect academic record with GPA 5.00 in SSC, JSC, and HSC
 - Developed strong technical skills in data analysis using R and Python.
 - Gained proficiency in graphic design with Adobe Photoshop
-- Established strong academic and extracurricular portfolio
 :::
 
 ---
