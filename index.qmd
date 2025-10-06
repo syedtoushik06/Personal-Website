@@ -1,0 +1,28 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero}
+<img src="profile.jpg" alt="Syed Toushik Hossen">
+
+# Hi, I'm **Syed Toushik Hossen**
+
+Undergraduate student at University of Dhaka studying Health Economics. I'm interested in using data-driven approaches to address real-world health system challenges.
+
+**R Enthusiast** • **Data Visualization** • **Health Economics Student**
+
+---
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin: 2.5rem 0;">
+[🎓 Education](education.qmd){.cta-button style="font-size: 1rem; padding: 0.8rem 2rem;"}
+[💼 Experience](experience.qmd){.cta-button style="font-size: 1rem; padding: 0.8rem 2rem;"}
+[🛠️ Skills](skills.qmd){.cta-button style="font-size: 1rem; padding: 0.8rem 2rem;"}
+[🏆 Awards](awards.qmd){.cta-button style="font-size: 1rem; padding: 0.8rem 2rem;"}
+[💼 Projects](projects.qmd){.cta-button style="font-size: 1rem; padding: 0.8rem 2rem;"}
+[✍️ Articles](articles.qmd){.cta-button style="font-size: 1rem; padding: 0.8rem 2rem;"}
+[💝 Personal](personal.qmd){.cta-button style="font-size: 1rem; padding: 0.8rem 2rem;"}
+[📧 Contact](contact.qmd){.cta-button style="font-size: 1rem; padding: 0.8rem 2rem;"}
+</div>
+
+:::

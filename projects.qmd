@@ -1,0 +1,91 @@
+---
+title: "Projects"
+---
+
+::: {.content-section}
+
+## 📚 Portfolio & Projects
+
+### GitHub Repositories
+
+::: {.card-grid}
+::: {.card}
+**📊 Applied Statistics with R**
+
+Learning materials and practice for statistical analysis with R
+
+[View on GitHub →](https://github.com/syedtoushik06)
+---
+
+
+
+:::
+
+::: {.card}
+**📈 R Graph Gallery**
+
+Collection of chart examples and visualization techniques
+
+[View on GitHub →](https://github.com/syedtoushik06)
+:::
+
+::: {.card}
+**📉 R Histogram Practice**
+
+Practice projects for data visualization
+
+[View on GitHub →](https://github.com/syedtoushik06)
+:::
+
+::: {.card}
+**🔄 Git Learning**
+
+Documenting my journey learning version control
+
+[View on GitHub →](https://github.com/syedtoushik06)
+:::
+:::
+
+---
+
+## 💝 Areas of Interest
+
+::: {.card-grid}
+::: {.card}
+**📊 Data Visualization**
+
+Creating clear and meaningful visualizations using R, especially ggplot2, to communicate insights effectively.
+:::
+
+::: {.card}
+**📈 Health Economics**
+
+Understanding health systems, economic evaluation, and policy analysis to improve healthcare outcomes.
+:::
+
+::: {.card}
+**💻 Programming**
+
+Learning and improving skills in R, Python, and statistical software for data analysis.
+:::
+
+::: {.card}
+**🎯 Statistical Analysis**
+
+Applying statistical techniques to real-world problems and conducting reproducible research.
+:::
+
+::: {.card}
+**🎨 Graphic Design**
+
+Creating visual content using Adobe Photoshop for organizations and projects.
+:::
+
+::: {.card}
+**🤝 Leadership**
+
+Managing teams and contributing to academic clubs and research societies.
+:::
+:::
+
+:::

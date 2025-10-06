@@ -1,0 +1,68 @@
+---
+title: "Skills"
+---
+
+::: {.content-section}
+
+## 🛠️ Technical Skills
+
+### Programming Languages
+
+::: {.skills-container}
+<span class="skill-badge">R (Ggplot2, Dplyr, Shiny)</span>
+<span class="skill-badge">Python (Matplotlib)</span>
+<span class="skill-badge">Stata</span>
+---
+
+
+
+:::
+
+### Tools & Software
+
+::: {.skills-container}
+<span class="skill-badge">Adobe Photoshop</span>
+<span class="skill-badge">Microsoft Office</span>
+<span class="skill-badge">Tableau</span>
+<span class="skill-badge">Git</span>
+:::
+
+### Research Skills
+
+::: {.skills-container}
+<span class="skill-badge">Data Visualization</span>
+<span class="skill-badge">Statistical Analysis</span>
+
+:::
+
+---
+
+## 🎓 Currently Learning
+
+::: {.card-grid}
+::: {.card}
+**📊 Advanced R Programming**
+
+Working on Applied Statistics for Data Scientists with R course
+:::
+
+::: {.card}
+**📈 Data Visualization**
+
+Improving skills with ggplot2 and creating professional charts
+:::
+
+::: {.card}
+**🔄 Version Control**
+
+Learning Git and GitHub for collaborative projects
+:::
+
+::: {.card}
+**📉 Statistical Methods**
+
+Studying health economics theory and statistical analysis techniques
+:::
+:::
+
+:::

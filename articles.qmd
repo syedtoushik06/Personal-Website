@@ -1,0 +1,54 @@
+---
+title: "Articles & Writing"
+---
+
+::: {.content-section}
+
+## ✍️ My Articles & Publications
+
+::: {.card-grid}
+
+::: {.card}
+**📄 Reassessing Democracy: Unveiling the Illusions and Imperfections**
+
+*Published: May 2023*
+
+An analytical critique of Lincoln's famous quote about democracy, examining the gap between democratic ideals and real-world implementation. This article explores how "government of the people, by the people, for the people" often falls short in practice.
+
+[Read Article →](https://scribewise.blogspot.com/2023/05/reassessing-democracy-unveiling_29.html)
+:::
+
+::: {.card}
+**📄 Solipsism: Unimaginable Concept**
+
+*Published: May 2023*
+
+A philosophical exploration of solipsism, examining the concept that only one's own mind is certain to exist and its implications for understanding reality and consciousness.
+
+[Read Article →](https://scribewise.blogspot.com/2023/05/solipsism-unimaginable-concept-of.html)
+:::
+
+::: {.card}
+**📄 Beyond Borders: Far-Reaching Impact**
+
+*Published: May 2023*
+
+An analysis exploring how ideas, policies, and movements transcend geographical boundaries and examining their broader societal implications.
+
+[Read Article →](https://scribewise.blogspot.com/2023/05/beyond-borders-far-reaching-impact-of.html)
+:::
+
+:::
+
+---
+
+
+## 📚 About My Writing
+
+::: {.info-box}
+I write about philosophy, political systems, and social issues, exploring the gap between theoretical ideals and practical reality. My articles combine critical analysis with accessible explanations of complex concepts.
+
+**Blog**: [ScribeWise](https://scribewise.blogspot.com/)
+:::
+
+:::

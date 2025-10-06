@@ -1,0 +1,64 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Syed Toushik Hossen "
+  favicon: images/favicon.ico
+  
+  navbar:
+    logo: images/favicon.ico
+    background: "#1e293b"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house-fill
+      - href: education.qmd
+        text: Education
+        icon: mortarboard-fill
+      - href: experience.qmd
+        text: Experience
+        icon: briefcase-fill
+      - href: skills.qmd
+        text: Skills
+        icon: tools
+      - href: awards.qmd
+        text: Awards
+        icon: trophy-fill
+      - href: projects.qmd
+        text: Projects
+        icon: code-square
+      - href: articles.qmd
+        text: Articles
+        icon: pencil-square
+      - href: personal.qmd
+        text: Personal
+        icon: heart-fill
+      - href: contact.qmd
+        text: Contact
+        icon: envelope-fill
+
+  page-footer:
+    background: "#1e293b"
+    foreground: "#ffffff"
+    left: "© 2024 Syed Toushik Hossen. All rights reserved."
+    center: "Built with Quarto"
+    right: 
+      - icon: github
+        href: https://github.com/syedtoushik06
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/syedtoushikhossen
+        aria-label: LinkedIn
+      - icon: envelope-fill
+        href: mailto:syedtoushik06@gmail.com
+        aria-label: Email
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true

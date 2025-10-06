@@ -1,0 +1,40 @@
+---
+title: "Personal"
+---
+
+::: {.content-section}
+## 🎯 Personal Journey & Aspirations
+
+### 🌟 Achievements So Far
+
+::: {.checklist}
+- Successfully enrolled in Bachelor's program in Health Economics at University of Dhaka
+- Maintained perfect academic record with GPA 5.00 in SSC, JSC, and HSC
+- Received Government Scholarship for outstanding academic performance
+- Served in leadership roles across multiple student organizations
+- Developed technical skills in R programming and data analysis
+- Gained proficiency in graphic design with Adobe Photoshop
+- Won academic competitions including Mind Duel championship
+- Published analytical articles on philosophy and politics
+- Built foundation in statistical analysis and research methods
+- Established strong academic and extracurricular portfolio
+:::
+
+---
+
+### 🚀 Future Goals & Aspirations
+
+::: {.future-goals}
+- Complete Bachelor of Social Science in Health Economics with distinction
+- Master advanced statistical programming in R and Python
+- Develop expertise in health economics research methodologies
+- Contribute to peer-reviewed publications in health economics
+- Build interactive data visualization tools for healthcare analysis
+- Pursue graduate studies in Health Economics or Public Health
+- Conduct research on healthcare policy in Bangladesh context
+- Develop data-driven solutions for health system challenges
+- Establish professional network in global health economics community
+- Create educational resources for data science in health research
+:::
+
+:::

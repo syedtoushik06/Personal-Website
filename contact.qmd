@@ -1,0 +1,100 @@
+---
+title: "Contact"
+---
+
+::: {.content-section}
+
+## 📫 Get in Touch
+
+::: {.info-box}
+**Email**: syedtoushik-2024215158@ihe.du.ac.bd  
+**Phone**: +880 1949904646
+:::
+
+---
+
+## 🌐 Online Presence
+
+::: {.card-grid}
+
+::: {.card style="text-align:center;"}
+**LinkedIn**
+
+Professional network and experience
+
+[linkedin.com/in/syedtoushikhossen](https://www.linkedin.com/in/syedtoushikhossen)
+:::
+
+::: {.card style="text-align:center;"}
+**GitHub**
+
+Code repositories and projects
+
+[github.com/syedtoushik06](https://github.com/syedtoushik06)
+:::
+
+::: {.card style="text-align:center;"}
+**Facebook**
+
+Personal social media
+
+[facebook.com/toushik.hossen.7](https://www.facebook.com/toushik.hossen.7)
+:::
+
+::: {.card style="text-align:center;"}
+**Instagram**
+
+Photos and updates
+
+[instagram.com/_toushikb4u_](https://www.instagram.com/_toushikb4u_/)
+:::
+
+::: {.card style="text-align:center;"}
+**Reddit**
+
+Community discussions
+
+[reddit.com](https://www.reddit.com/)
+:::
+
+::: {.card style="text-align:center;"}
+**Quora**
+
+Questions and answers
+
+[quora.com/profile/Syed-Toushik-Hossain](https://bn.quora.com/profile/Syed-Toushik-Hossain)
+:::
+
+:::
+
+---
+
+## 💬 Let's Connect
+
+::: {.quote}
+"Feel free to reach out for collaborations, questions about my work, or just to connect! I'm always interested in discussing health economics, data science, and research opportunities."
+
+**— Syed Toushik Hossen**
+:::
+
+::: {.card-grid}
+
+::: {.card}
+**📧 For Professional Inquiries**
+
+Email me at: syedtoushik-2024215158@ihe.du.ac.bd
+
+Response time: Usually within 24-48 hours
+:::
+
+::: {.card}
+**🤝 For Collaboration**
+
+Connect on LinkedIn or GitHub
+
+Open to research projects and data science collaborations
+:::
+
+:::
+
+:::

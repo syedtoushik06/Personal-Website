@@ -1,0 +1,76 @@
+---
+title: "Education"
+---
+
+::: {.content-section}
+
+## 🎓 Academic Background
+
+::: {.timeline-item}
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+<img src="Education/university-dhaka.jpg" alt="University of Dhaka" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #2563eb;">
+<div>
+
+#### Bachelor of Social Science - Health Economics
+**University of Dhaka**  
+<span class="timeline-date">April 2025 - Present</span>
+
+</div>
+</div>
+
+---
+
+:::
+
+::: {.timeline-item}
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+<img src="Education/notre-dame-college.jpg" alt="Notre Dame College" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #06b6d4;">
+<div>
+
+#### Higher Secondary Certificate (HSC)
+**Notre Dame College, Dhaka**  
+<span class="timeline-date">January 2023 - September 2024</span>
+
+</div>
+</div>
+
+
+
+:::
+
+::: {.timeline-item}
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+<img src="Education/rupatalee-school.jpg" alt="Rupatalee School" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #10b981;">
+<div>
+
+#### Secondary School Certificate (SSC)
+**Rupatalee Govt. Secondary School, Barisal**  
+<span class="timeline-date">Completed: February 2022</span>
+
+</div>
+</div>
+
+
+
+:::
+
+---
+
+## 📝 Test Scores
+
+::: {.info-box}
+**Higher School Certificate (HSC)**  
+Score: GPA 5.00(W Govt.Scholarship) | June 2024 
+
+
+
+**Secondary School Certificate (SSC)**  
+Score: GPA 5.00(W Govt.Scholarship) | February 2022  
+
+
+**Junior School Certificate (JSC)**  
+Score: GPA 5.00(W Govt.Scholarship)  
+
+:::
+
+:::

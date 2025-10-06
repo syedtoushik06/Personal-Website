@@ -1,0 +1,86 @@
+---
+title: "Experience"
+---
+
+::: {.content-section}
+
+## 💼 Professional Experience
+
+::: {.timeline-item}
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+<img src="Experience/nebula-logo.jpg" alt="Nebula Research Society" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #2563eb;">
+<div>
+
+#### Chief Technology Officer
+**Nebula Research Society**  
+<span class="timeline-date">May 2025 - Present</span>
+
+</div>
+</div>
+
+---
+
+:::
+
+::: {.timeline-item}
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+<img src="Experience/ndiurc-logo.jpg" alt="NDIURC" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #2563eb;">
+<div>
+
+#### Director of Administration
+**Notre Dame International Understanding and Relation Club (NDIURC)**  
+<span class="timeline-date">October 2024 - May 2025 (8 months)</span>
+
+</div>
+</div>
+
+Managed organizational operations and coordinated club activities.
+
+**Skills**: Graphic Design (Adobe Photoshop)
+
+<div style="margin-top: 1.5rem;">
+<img src="Experience/ndiurc-photo.jpg" alt="NDIURC Executive Panel" style="width: 100%; max-width: 500px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</div>
+
+:::
+
+::: {.timeline-item}
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+<img src="Experience/ndmcc-logo.jpg" alt="NDMCC" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #2563eb;">
+<div>
+
+#### Treasurer
+**Notre Dame Media & Communication Club (NDMCC)**  
+<span class="timeline-date">February 2023 - January 2025 (2 years)</span>
+
+</div>
+</div>
+
+Contributed as a Treasurer in the 1st-ever college-level media and communication-based club in Bangladesh.
+
+**Skills**: Graphic Design (Adobe Photoshop) and Microsoft Office (Excel, Word, Powerpoint)
+
+<div style="display: flex; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap;">
+<img src="Experience/ndmcc-photo1.jpg" alt="NDMCC Photo" style="width: calc(50% - 0.5rem); max-width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+<img src="Experience/ndmcc-certificate.jpg" alt="NDMCC Certificate" style="width: calc(50% - 0.5rem); max-width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</div>
+
+:::
+
+::: {.timeline-item}
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+<img src="Experience/dp-tutorials-logo.jpg" alt="DP Tutorials" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #2563eb;">
+<div>
+
+#### Campus Envoy
+**DP Tutorials**  
+<span class="timeline-date">January 2023 - January 2024 (1 year 1 month)</span>
+
+</div>
+</div>
+
+Represented DP Tutorials on campus and promoted educational programs.
+
+:::
+
+:::
