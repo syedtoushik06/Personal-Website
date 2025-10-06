@@ -38,10 +38,18 @@ body {
   color: var(--text-dark) !important;
   line-height: 1.7;
   margin: 0;
-  padding: 0;
+  padding: clamp(0.5rem, 2vw, 1rem);
   overflow-x: hidden;
   min-height: 100vh;
   position: relative;
+}
+
+/* Main Container for Better Control */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2rem);
+  width: 100%;
 }
 
 /* Typography - Responsive */
