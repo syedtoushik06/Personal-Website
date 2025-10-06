@@ -37,7 +37,7 @@ body {
   min-height: 100vh;
 }
 
-/* Typography */
+/* Typography - Responsive */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', 'Segoe UI', sans-serif;
   font-weight: 700;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: clamp(2rem, 5vw, 2.8rem);
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -57,7 +57,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
   position: relative;
   padding-bottom: 1.5rem;
   margin-bottom: 2.5rem;
@@ -74,11 +74,23 @@ h2::after {
   border-radius: 3px;
 }
 
-/* Hero Section */
+h3 {
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+}
+
+h4 {
+  font-size: clamp(1.1rem, 2.5vw, 1.25rem);
+}
+
+p {
+  font-size: clamp(0.95rem, 2vw, 1.05rem);
+}
+
+/* Hero Section - Fully Responsive */
 .hero {
   background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #06b6d4 100%);
-  padding: 6rem 3rem;
-  border-radius: 50px;
+  padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 5vw, 3rem);
+  border-radius: clamp(20px, 5vw, 50px);
   text-align: center;
   margin-bottom: 3rem;
   box-shadow: var(--shadow-lg);
@@ -90,11 +102,11 @@ h2::after {
 
 .hero img {
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  width: clamp(120px, 25vw, 180px);
+  height: clamp(120px, 25vw, 180px);
   margin-bottom: 2rem;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-  border: 8px solid rgba(255, 255, 255, 0.95);
+  border: clamp(4px, 1vw, 8px) solid rgba(255, 255, 255, 0.95);
   transition: var(--transition-fast);
   object-fit: cover;
 }
@@ -105,28 +117,29 @@ h2::after {
 
 .hero h1 {
   margin-bottom: 1.5rem;
-  font-size: 3.8rem;
+  font-size: clamp(2rem, 6vw, 3.8rem);
   color: white !important;
   -webkit-text-fill-color: white !important;
   text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
 }
 
 .hero p {
-  font-size: 1.4rem;
+  font-size: clamp(1rem, 3vw, 1.4rem);
   color: rgba(255, 255, 255, 0.97) !important;
   max-width: 850px;
   margin: 2rem auto;
   line-height: 1.9;
+  padding: 0 1rem;
 }
 
-/* CTA Buttons */
+/* CTA Buttons - Responsive */
 .cta-button {
   display: inline-block;
   background: white !important;
   color: var(--primary-color) !important;
-  padding: 1.2rem 2.5rem;
+  padding: clamp(0.8rem, 2vw, 1.2rem) clamp(1.5rem, 3vw, 2.5rem);
   border-radius: 60px;
-  font-size: 1.1rem;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
   font-weight: 700;
   text-decoration: none !important;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
@@ -134,6 +147,7 @@ h2::after {
   border: none;
   cursor: pointer;
   margin: 0.5rem;
+  white-space: nowrap;
 }
 
 .cta-button:hover {
@@ -141,11 +155,11 @@ h2::after {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
 }
 
-/* Content Sections */
+/* Content Sections - Responsive */
 .content-section {
   background: rgba(255, 255, 255, 0.98) !important;
-  padding: 3.5rem;
-  border-radius: 50px;
+  padding: clamp(2rem, 5vw, 3.5rem);
+  border-radius: clamp(20px, 5vw, 50px);
   box-shadow: var(--shadow-lg);
   margin-bottom: 3rem;
   border: 1px solid rgba(37, 99, 235, 0.12);
@@ -160,21 +174,21 @@ h2::after {
   right: 0;
   height: 6px;
   background: linear-gradient(90deg, var(--primary-color), var(--secondary-color), var(--accent-color));
-  border-radius: 50px 50px 0 0;
+  border-radius: clamp(20px, 5vw, 50px) clamp(20px, 5vw, 50px) 0 0;
 }
 
-/* Cards */
+/* Cards - Responsive Grid */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: clamp(1.5rem, 3vw, 2.5rem);
   margin: 3rem 0;
 }
 
 .card {
   background: rgba(255, 255, 255, 0.98) !important;
-  border-radius: 32px;
-  padding: 3rem;
+  border-radius: clamp(16px, 4vw, 32px);
+  padding: clamp(1.5rem, 4vw, 3rem);
   box-shadow: var(--shadow-md);
   transition: var(--transition-fast);
   border: 1px solid rgba(37, 99, 235, 0.1);
@@ -186,14 +200,14 @@ h2::after {
   box-shadow: var(--shadow-lg);
 }
 
-/* Timeline Items */
+/* Timeline Items - Responsive */
 .timeline-item {
   background: rgba(255, 255, 255, 0.98);
-  border-radius: 24px;
-  padding: 2.5rem;
+  border-radius: clamp(12px, 3vw, 24px);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
   margin-bottom: 2rem;
   box-shadow: var(--shadow-md);
-  border-left: 6px solid var(--primary-color);
+  border-left: clamp(4px, 1vw, 6px) solid var(--primary-color);
   transition: var(--transition-fast);
 }
 
@@ -207,26 +221,27 @@ h2::after {
   color: white;
   padding: 0.4rem 1rem;
   border-radius: 20px;
-  font-size: 0.9rem;
+  font-size: clamp(0.8rem, 2vw, 0.9rem);
   font-weight: 600;
   display: inline-block;
   margin-top: 0.5rem;
 }
 
-/* Skills */
+/* Skills - Responsive */
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.2rem;
+  gap: clamp(0.8rem, 2vw, 1.2rem);
   margin: 2rem 0;
+  justify-content: center;
 }
 
 .skill-badge {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: white !important;
-  padding: 1rem 2rem;
+  padding: clamp(0.8rem, 2vw, 1rem) clamp(1.2rem, 3vw, 2rem);
   border-radius: 60px;
-  font-size: 1rem;
+  font-size: clamp(0.85rem, 2vw, 1rem);
   font-weight: 600;
   box-shadow: var(--shadow-md);
   transition: var(--transition-fast);
@@ -238,10 +253,10 @@ h2::after {
   box-shadow: var(--shadow-lg);
 }
 
-/* Special Boxes */
+/* Special Boxes - Responsive */
 .quote, .info-box, .success-box {
-  padding: 2.5rem;
-  border-radius: 28px;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border-radius: clamp(14px, 3vw, 28px);
   margin: 2.5rem 0;
   box-shadow: var(--shadow-md);
   transition: var(--transition-fast);
@@ -249,19 +264,19 @@ h2::after {
 
 .quote {
   background: linear-gradient(135deg, rgba(254, 243, 199, 0.95), rgba(253, 230, 138, 0.9));
-  border-left: 8px solid var(--warning-color);
+  border-left: clamp(4px, 1vw, 8px) solid var(--warning-color);
   color: var(--text-dark) !important;
 }
 
 .info-box {
   background: linear-gradient(135deg, rgba(219, 234, 254, 0.95), rgba(191, 219, 254, 0.9));
-  border-left: 8px solid var(--primary-color);
+  border-left: clamp(4px, 1vw, 8px) solid var(--primary-color);
   color: #1e3a8a !important;
 }
 
 .success-box {
   background: linear-gradient(135deg, rgba(209, 250, 229, 0.95), rgba(167, 243, 208, 0.9));
-  border-left: 8px solid var(--success-color);
+  border-left: clamp(4px, 1vw, 8px) solid var(--success-color);
   color: #065f46 !important;
 }
 
@@ -269,7 +284,7 @@ h2::after {
   transform: translateX(10px);
 }
 
-/* Lists */
+/* Lists - Responsive */
 .checklist, .future-goals {
   list-style: none;
   padding-left: 0;
@@ -278,9 +293,9 @@ h2::after {
 
 .checklist li, .future-goals li {
   margin-bottom: 1.2rem;
-  padding: 1.5rem 1.8rem 1.5rem 4rem;
-  border-radius: 22px;
-  font-size: 1.05rem;
+  padding: clamp(1rem, 2vw, 1.5rem) clamp(1rem, 2vw, 1.8rem) clamp(1rem, 2vw, 1.5rem) clamp(3rem, 6vw, 4rem);
+  border-radius: clamp(12px, 3vw, 22px);
+  font-size: clamp(0.9rem, 2vw, 1.05rem);
   transition: var(--transition-fast);
   position: relative;
   box-shadow: var(--shadow-sm);
@@ -288,40 +303,41 @@ h2::after {
 
 .checklist li {
   background: rgba(240, 253, 244, 0.95);
-  border-left: 6px solid var(--success-color);
+  border-left: clamp(4px, 1vw, 6px) solid var(--success-color);
 }
 
 .future-goals li {
   background: rgba(239, 246, 255, 0.95);
-  border-left: 6px solid var(--primary-color);
+  border-left: clamp(4px, 1vw, 6px) solid var(--primary-color);
 }
 
 .checklist li::before {
   content: '✓';
   position: absolute;
-  left: 1.5rem;
+  left: clamp(0.8rem, 2vw, 1.5rem);
   top: 50%;
   transform: translateY(-50%);
   color: white;
   background: linear-gradient(135deg, var(--success-color), #34d399);
-  width: 36px;
-  height: 36px;
+  width: clamp(28px, 5vw, 36px);
+  height: clamp(28px, 5vw, 36px);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
 .future-goals li::before {
   content: '';
   position: absolute;
-  left: 1.5rem;
+  left: clamp(0.8rem, 2vw, 1.5rem);
   top: 50%;
   transform: translateY(-50%);
-  width: 36px;
-  height: 36px;
+  width: clamp(28px, 5vw, 36px);
+  height: clamp(28px, 5vw, 36px);
   background: white;
-  border: 4px solid var(--primary-color);
+  border: clamp(3px, 0.5vw, 4px) solid var(--primary-color);
   border-radius: 10px;
 }
 
@@ -330,13 +346,13 @@ h2::after {
   box-shadow: var(--shadow-md);
 }
 
-/* Scroll Elements */
+/* Scroll Elements - Responsive */
 .scroll-progress {
   position: fixed;
   top: 0;
   left: 0;
   width: 0%;
-  height: 5px;
+  height: clamp(3px, 0.5vw, 5px);
   background: linear-gradient(90deg, var(--primary-color), var(--secondary-color), var(--accent-color));
   z-index: 9999;
   box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
@@ -344,17 +360,17 @@ h2::after {
 
 .scroll-top {
   position: fixed;
-  bottom: 2.5rem;
-  right: 2.5rem;
-  width: 60px;
-  height: 60px;
+  bottom: clamp(1.5rem, 3vw, 2.5rem);
+  right: clamp(1.5rem, 3vw, 2.5rem);
+  width: clamp(50px, 8vw, 60px);
+  height: clamp(50px, 8vw, 60px);
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 1.8rem;
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
   box-shadow: var(--shadow-lg);
   cursor: pointer;
   opacity: 0;
@@ -373,23 +389,242 @@ h2::after {
   transform: translateY(-5px);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+/* Images - Responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.timeline-item img,
+.card img {
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+/* Tablet Devices (768px - 1024px) */
+@media (max-width: 1024px) {
   .hero {
-    padding: 3.5rem 2rem;
-    border-radius: 36px;
+    padding: 4rem 2.5rem;
   }
   
-  .hero h1 {
-    font-size: 2.2rem;
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
   }
   
   .content-section {
-    padding: 2.5rem 1.8rem;
-    border-radius: 36px;
+    padding: 2.5rem 2rem;
+  }
+}
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  
+  .hero {
+    padding: 3.5rem 1.5rem;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    margin: 1rem auto;
+  }
+  
+  .hero img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .content-section {
+    padding: 2rem 1.5rem;
+    border-radius: 30px;
+    margin-bottom: 2rem;
   }
   
   .card-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .card {
+    padding: 1.5rem;
+  }
+  
+  .timeline-item {
+    padding: 1.5rem;
+  }
+  
+  .cta-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.95rem;
+    margin: 0.3rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2::after {
+    width: 60px;
+  }
+  
+  .skills-container {
+    justify-content: center;
+    gap: 0.8rem;
+  }
+  
+  .skill-badge {
+    padding: 0.7rem 1.3rem;
+    font-size: 0.85rem;
+  }
+  
+  .checklist li, .future-goals li {
+    padding: 1rem 1rem 1rem 3rem;
+  }
+  
+  .timeline-item:hover,
+  .checklist li:hover,
+  .future-goals li:hover,
+  .quote:hover,
+  .info-box:hover,
+  .success-box:hover {
+    transform: translateX(5px);
+  }
+  
+  .scroll-top {
+    width: 50px;
+    height: 50px;
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
+/* Small Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .hero {
+    padding: 2.5rem 1rem;
+    border-radius: 24px;
+  }
+  
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+  
+  .hero p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .hero img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .content-section {
+    padding: 1.5rem 1rem;
+    border-radius: 24px;
+  }
+  
+  .card {
+    padding: 1.25rem;
+    border-radius: 20px;
+  }
+  
+  .timeline-item {
+    padding: 1.25rem;
+    border-radius: 16px;
+  }
+  
+  .cta-button {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.85rem;
+    margin: 0.25rem;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+  }
+  
+  .skill-badge {
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .quote, .info-box, .success-box {
+    padding: 1.25rem;
+  }
+}
+
+/* Extra Small Devices (max-width: 360px) */
+@media (max-width: 360px) {
+  .hero {
+    padding: 2rem 0.75rem;
+  }
+  
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  
+  .hero img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .content-section {
+    padding: 1.25rem 0.75rem;
+  }
+  
+  .cta-button {
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Landscape Mobile Orientation */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    padding: 2rem 1.5rem;
+  }
+  
+  .hero img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    margin: 1rem auto;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .scroll-top,
+  .scroll-progress {
+    display: none;
+  }
+  
+  .hero,
+  .content-section,
+  .card {
+    break-inside: avoid;
+    box-shadow: none;
   }
 }
