@@ -1,0 +1,23 @@
+﻿name: Build Quarto site for Cloudflare Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render site
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Upload artifact for Cloudflare
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
